@@ -1,0 +1,64 @@
+{
+  "name": "generator-android-clean-architecture-boilerplate",
+  "version": "1.0.0",
+  "description": "An Android clean architecture boilerplate to save us having to create the same project over from scratch every time! :)",
+  "homepage": "https://github.com/arundhatigupta/android-clean-architecture-boilerplate",
+  "author": {
+    "name": "Arundhati Gupta",
+    "url": "https://github.com/arundhatigupta/"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "Android",
+    "Boilerplate",
+    "Kotlin",
+    "Clean Architecture",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "generator-git-init": "^1.1.3",
+    "glob": "^7.1.6",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^4.2.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "async": "^3.1.0",
+    "eslint": "^6.7.2",
+    "eslint-config-xo-space": "^0.22.0",
+    "filter-files": "^0.4.0",
+    "find-in-files": "^0.5.0",
+    "fs-finder": "^1.8.1",
+    "gulp": "^4.0.2",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-eslint": "^6.0.0",
+    "gulp-exclude-gitignore": "^1.2.0",
+    "gulp-istanbul": "^1.1.3",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-mocha": "^7.0.2",
+    "gulp-nsp": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "mv": "^2.1.1",
+    "ncp": "^2.0.0",
+    "nodegit": "^0.26.3",
+    "path": "^0.12.7",
+    "renamer": "^1.1.4",
+    "replace": "^1.1.1",
+    "rimraf": "^3.0.0",
+    "string-search": "^1.2.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "scripts": {},
+  "repository": "arundhatigupta/generator-android-clean-architecture-boilerplate"
+}
