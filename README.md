@@ -34,8 +34,13 @@ cd NewApp
 yo android-clean-architecture-boilerplate
 ```
 
+You might also check out my [blog](https://medium.com/techtics/android-clean-architecture-boilerplate-code-generator-79a450941ec8) for this generator.
+
 ### Created & Maintained By
 Arundhati Gupta [@arundhatigupta](https://github.com/arundhatigupta)
+
+### Acknowledgements
+Thank you Akshat Garg [@akshatnitd](https://github.com/akshatnitd) for the idea and feedback.
 
 Visit [www.arundhatigupta.in](http://www.arundhatigupta.in) for more info.
 
